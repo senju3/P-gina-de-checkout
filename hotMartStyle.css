@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+label {
+    display: none;
+}
+* input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: none;
+}
+/*****************************************header*********************************************/
+header {
+    margin: 0 650px;
+    width: 400px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.paiss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.paiss img {
+    width: 20px;
+    height: 20px;
+}
+.paiss h2 {
+    
+}
+.pais {
+    flex-grow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.pais input {
+    width: 70%;
+}
+.pais img {
+    width: 20px;
+    height: 20px;
+}
+.pais:nth-child(1) {
+    
+}
+
+.hrr {
+    margin: 10px 650px 0;
+    width: 400px;
+}
+/********************************************************main********************************************/
+main {
+    margin: 10px 650px;
+    width: 400px;
+}
+/*******************************titulo************************/
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.titulo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    line-height: 35px;
+}
+.info-precoTotal {
+    flex-basis: 25%;
+    color: #3962e9;
+    text-decoration: none; /*para tirar a linha que embaixo*/
+}
+.titulo p strong {
+    font-size: 40px;
+}
+.titulo img {
+    
+    width: 200px;
+    height: 300px;
+
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/****************************************formulário*******************************************************/
+
+#campo-nome{
+    width: 400px;
+}
+#campo-email {
+    width: 400px;
+}
+#ccampo-email {
+    width: 400px;
+}
+.celularrr {
+    display: flex;
+}
+#cel {
+    width: 333px;
+}
+#celu {
+    width: 65px;
+}
+/********************cupom******************/
+.cupom {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cupom img {
+    width: 15px;
+    height: 15px;
+    
+}
+.cupom p {
+    font-size: 30px;
+    margin-left: 20px;
+   
+}
+.cupom button img {
+    width: 20px;
+    height: 20px;
+}
+.cupom button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+/**************************button pagamento*****************/
+.card button img {
+    width: 20px;
+    height: 20px;
+}
+.card {
+    display: flex;
+    width: 400px;
+}
+.cardd {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+}
+.cardd button {
+    padding: 10px 0;
+    cursor: pointer;
+}
+.cardd button:hover {/********************:hover***************/
+    background-color: #3962e92c;
+}
+.cardd button p:hover {
+    color: #012ec4;
+}
+.hot {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+}
+.hot button {
+    padding: 10px 0;
+    cursor: pointer;
+}
+.hot button:hover {/********************:hover***************/
+    background-color: #3962e92c;
+}
+.hot button p:hover {
+    color: #012ec4;
+}
+.boleto {
+    display: flex;   
+    flex-direction: column;
+    width: 33.3%;
+
+}
+.boleto button {
+    padding: 18px 0;
+    cursor: pointer;
+}
+.boleto button:hover {/********************:hover***************/
+    background-color: #3962e92c;
+}
+.boleto button p:hover {
+    color: #012ec4;
+}
+.arraste {
+    margin: 25px 0;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.arraste button {
+    border: none;
+    background-color: rgba(128, 128, 128, 0);
+    cursor: pointer;
+}
+.arraste button img {
+     width: 20px;
+     height: 20px;
+ }
+/*****************************************************formulario cartão*****************************************************************/
+fieldset {
+    padding: 15px;
+}
+
+#number-ccard {
+    width: 400px;
+}
+#titular {
+    width: 400px;
+}
+
+.vencimento {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    gap: 30px;
+}
+
+.mes {
+    width: 33.3%;
+}
+#mess {
+    width: 100%;
+}
+.mes h3 {
+    width: 33.3%;
+}
+.ano {
+    width: 33.3%;   
+}
+.vencimento .ano h3 {
+    width: 33.3%;
+}
+#aano {
+    width: 100%;
+}
+.ccv {
+    width: 33.3%;
+}
+.vencimento .ccv h3 {
+    width: 33.3%;
+}
+#ccvv {
+    width: 100%;
+}
+
+#parcelass {
+    width: 400px;
+}
+
+
+/**************************fim main***********************/
+.fim {
+    width: 400px;
+}
+.fim p {
+    margin: 30px 0 0;
+    font-size: 30px;
+}
+.resumo {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.price {
+    color: rgb(73, 73, 73);
+}
+.buy {
+    margin: 25px 0 10px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 128, 0, 0.692);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.buy:hover {
+    background-color: green;
+}
+/******************************************************footer********************************************/
+footer {
+    margin: 15px 650px;
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.158);
+}

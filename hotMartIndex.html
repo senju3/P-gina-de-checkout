@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="hotMartStyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como desenvolver ombros gigantes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;700&family=Palette+Mosaic&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--**************************************************Header*********************************************************************************************************/-->
+    <header>
+        <div class="container"> <!--space-around-->
+            <div class="paiss">
+                <img src="https://cdn1.iconfinder.com/data/icons/basic-ui-icon-rounded-colored/512/icon-41-128.png" alt="">
+                <h2>COMPRA 100% SEGURA</h1>  
+            </div>
+            <div class="pais">
+                <img src="https://cdn0.iconfinder.com/data/icons/flags-of-the-world-2/128/brazil-2-128.png" alt="">
+                <datalist id="paises">
+                    <option>Brasil</option>
+                    <option>Argentina</option>
+                    <option>Uruguai</option>
+                    <option>Chile</option>
+                    <option>Colômbia</option>
+                    <option>Equador</option>
+                    <option>Venezuela</option>
+                    <option>Estados Unidos</option>
+                    <option>Portugal</option>
+                    <option>França</option>
+                    <option>Alemanha</option>
+                </datalist>
+                <input type="text" list="paises"  placeholder="Alterar país">   
+            </div>
+        </div>   
+    </header>
+    <hr class="hrr">
+    <main>
+<!--********************************************************titulo****************************************************************************************************-->
+        <section class="section1">
+            <div class="titulo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsRcV2LL9SmGBtPvspzhie8u_5fOjUqnxa0Q&usqp=CAU" alt="">
+                <div class="texto-titulo">
+                    <div class="titulo1">
+                        <h2>Como desenvolver ombros gigantes by Rafael Brandao</h2>
+                        <p>Autor: Rafael Brandão</p>
+                    </div>
+                    
+                    <p class="info-precoTotal"><strong>R$ 49,90</strong><br> ou em 3 x de R$17,60 * no cartão</p>
+                    
+                </div>      
+            </div>
+            <hr>
+<!--******************************************************fórmulario****************************************************************************************************************/-->
+            <form id="meu-form" action="./form.html" method="post">
+                <div class="name">
+                    <h3>Nome Completo</h3>
+                    <label for="campo-nome">Digite seu nome completo</label>
+                    <input type="text" form="meu-form" name="nome" id="campo-nome" placeholder="Digite seu nome completo" autocomplete="name" required>
+                </div>
+                <div>
+                    <h3>Seu E-mail</h3>
+                    <label for="campo-email">Digite seu e-mail</label>
+                    <input type="email" form="meu-form" name="email" id="campo-email" placeholder="Digite seu e-mail" autocomplete="email" required>
+                </div>
+                <div>
+                    <h3>Confirme seu e-mail</h3>
+                     <label for="ccampo-email">Confirme seu e-mail</label>
+                    <input type="email" form="meu-form" name="email" id="ccampo-email" placeholder="Digite novamente seu e-mail" autocomplete="email" required>
+                </div>
+                <h3>Celular</h3>
+                <div class="celularrr">
+                    <datalist id="ddd">
+                        <option>+305</option>
+                        <option>+101</option>
+                    </datalist>
+                    <label for="cel">Digite seu celular</label>
+                    <input type="text" form="meu-form" name="celular" id="celu" list="ddd" placeholder="+55">
+                    <input type="tel" form="meu-form" name="celular" id="cel" required placeholder="Digite o número do seu celular">
+                </div>
+                <div class="cupom">
+                    <img src="https://cdn1.iconfinder.com/data/icons/business-504/102/Etiqueta-01-128.png" alt="">
+                    <p>Tem um cupom de desconto ?</p>
+                    <button><img src="https://cdn2.iconfinder.com/data/icons/general-ui-outlined/16/down-128.png" alt=""></button>
+                </div>
+            </form>
+        </section>
+        <section class="cartão">
+            <div class="card">
+                <div class="cardd"><button> <img src="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-014_credit_card-128.png" alt=""> <p><strong>cartão de <br> crédito</strong></p></button></div>
+                <div class="hot"><button> <img src="https://cdn1.iconfinder.com/data/icons/shopping-115/32/hot-128.png" alt=""> <p> <strong>Conta <br> Hotmart</strong></p></button></div>
+                <div class="boleto"><button> <img src="https://cdn4.iconfinder.com/data/icons/payment-methods-8/87/boleto-128.png" alt=""> <p><strong>Boleto <br> </strong></p> </button></div>
+                
+            </div>
+            <div class="arraste">
+                <button><img src="https://cdn2.iconfinder.com/data/icons/general-ui-outlined/16/left-128.png" alt=""></button>
+                <p> Arraste para ver mais  </p>
+                <button><img src="https://cdn2.iconfinder.com/data/icons/general-ui-outlined/16/right-128.png" alt=""></button>
+            </div>
+<!--*********************************************************FORMULÁRIO-CARTÃO*****************************************************************************************-->
+        <fieldset> 
+            <form id="meu-form" action="./form.html" method="post">
+                <div class="number-card">
+                    <h3>Número do cartão</h3>
+                    <label for="number-card">Digite o número do cartão</label>
+                    <input type="text" form="meu-form" name="card-number" id="number-ccard" required placeholder="Digite o número do cartão" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}">
+                </div>
+                <div class="name-titular">
+                    <h3>Nome do titular</h3>
+                    <label for="titular">Titular do cartão</label>
+                    <input type="text" form="meu-form" name="titularr" id="titular" placeholder="Digite o titular do cartão" required>
+                </div>
+                <div class="vencimento">
+                    <div class="mes">
+                        <h3>Mês</h3>
+                        <label for="mess">mes do vencimento</label>
+                        <input type="number" form="meu-form" name="mmes" id="mess" placeholder="MM" required>
+                    </div>
+                    <div class="ano">
+                        <h3>Ano</h3>
+                        <label for="aano">ano do vencimento</label>
+                        <input type="number" form="meu-form" name="anoo" id="aano" placeholder="AA" required>
+                    </div>
+                    <div class="ccv">
+                        <h3>CCV</h3>
+                        <label for="ccvv">ccv do vencimento</label>
+                        <input type="number" form="meu-form" name="ccvvv" id="ccvv" placeholder="CCV" required>
+                    </div>
+                </div>
+                <div class="parcelas">
+                    <h3>Selecione o número de parcelas</h3>
+                    <datalist id="parcellas">
+                        <option>2 x de R$ 25,00</option>
+                        <option>3 X de R$ 16,75</option>
+                    </datalist>
+                    <label for="parcelass">Número de parcelas</label>
+                    <input type="text" form="meu-form" name="parcela" id="parcelass" list="parcellas" placeholder="1 x de R$ 49,90">
+                </div>
+            </form>
+        </fieldset>      
+        </section>
+<!--***************************************************FIM MAIN*************************************************************************************************-->
+        <section class="fim">
+            <p>Detalhes da compra</p>
+            <hr>
+            <div class="resumo">
+                <p><strong>Como desenvolver ombros gigantes by Rafael Brandao</strong></p>
+                <p class="price">R$49,90</p>
+            </div>
+            <button form="meu-form" type="submit" class="buy">Comprar agora</button>
+        </section>
+    </main>
+<!--********************************************************************FOOTER******************************************************************************************-->
+    <footer>
+        <p>
+            <strong>Precisa de ajuda ?</strong> <a href="">Entre em contato Preciso de ajuda para preencher essa tela</a> 
+        </p>
+        <p>*O valor parcelado possui acréscimo.</p>
+        <p>Estou ciente de que a Hotmart está processando este pedido a serviço de Rafael Brandâo e concordo com os <a href="">Termos de Compra</a> e confirmo que li e entendi a <a href="">Política de Privacidade</a></p>
+        <p>
+            Hotmart @ 2022 - Todos direitos Reservados
+        </p>
+        <p>
+            2022-04-23T05:59:07.590Z
+        </p>
+    </footer>
+    <script src="./hotmartScript.js"></script>
+</body>
+</html>
